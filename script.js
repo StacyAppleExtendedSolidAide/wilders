@@ -10,6 +10,6 @@ const WildColleagues = [
 ];
 
 
-colleagues.forEach(colleague => {
-    console.log(colleague.color(colleague.name));
+WildColleagues.forEach(wildColleague => {
+    console.log(wildColleague.color(wildColleague.name));
 });
